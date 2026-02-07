@@ -110,6 +110,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
+import dvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvarianceyc@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dvarianceyc/tags). For example,
+
+```javascript
 import dvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvarianceyc@v0.1.1-esm/index.mjs';
 ```
 
@@ -214,7 +219,7 @@ var v = dvarianceyc.ndarray( 4, 1, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvarianceyc@v0.1.1-esm/index.mjs';
+import dvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvarianceyc@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
